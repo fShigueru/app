@@ -23,3 +23,6 @@ app: ## access php
 
 serve:
 	$(SERVICE) "cd /src/ && yarn serve"
+
+install:
+	$(SERVICE) "cd /src/ && yarn install"
